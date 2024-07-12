@@ -1,94 +1,33 @@
 {
-  "LFSD": {
+  "COD10K": {
     "image": {
-      "path": "Path_Of_RGBDSOD_Datasets/LFSD/Image",
-      "prefix": "some_gt_prefix",
+      "path": "/content/drive/MyDrive/Bahan/ResNet50/Dataset/TestDataset/COD10K/Imgs",
+      "prefix": "COD10K-CAM-",
       "suffix": ".jpg"
     },
     "mask": {
-      "path": "Path_Of_RGBDSOD_Datasets/LFSD/Mask",
-      "prefix": "some_gt_prefix",
+      "path": "/content/drive/MyDrive/Bahan/ResNet50/Dataset/TestDataset/COD10K/GT",
+      "prefix": "COD10K-CAM-",
       "suffix": ".png"
     }
   },
-  "NJUD": {
+  "CHAMELEON": {
     "image": {
-      "path": "Path_Of_RGBDSOD_Datasets/NJUD_FULL/Image",
+      "path": "/content/drive/MyDrive/Bahan/ResNet50/Dataset/TestDataset/CHAMELEON/imgs",
       "suffix": ".jpg"
     },
     "mask": {
-      "path": "Path_Of_RGBDSOD_Datasets/NJUD_FULL/Mask",
+      "path": "/content/drive/MyDrive/Bahan/ResNet50/Dataset/TestDataset/CHAMELEON/GT",
       "suffix": ".png"
     }
   },
-  "NLPR": {
+  "CAMO": {
     "image": {
-      "path": "Path_Of_RGBDSOD_Datasets/NLPR_FULL/Image",
+      "path": "/content/drive/MyDrive/Bahan/ResNet50/Dataset/TestDataset/CAMO/Imgs",
       "suffix": ".jpg"
     },
     "mask": {
-      "path": "Path_Of_RGBDSOD_Datasets/NLPR_FULL/Mask",
-      "suffix": ".png"
-    }
-  },
-  "RGBD135": {
-    "image": {
-      "path": "Path_Of_RGBDSOD_Datasets/RGBD135/Image",
-      "suffix": ".jpg"
-    },
-    "mask": {
-      "path": "Path_Of_RGBDSOD_Datasets/RGBD135/Mask",
-      "suffix": ".png"
-    }
-  },
-  "SIP": {
-    "image": {
-      "path": "Path_Of_RGBDSOD_Datasets/SIP/Image",
-      "suffix": ".jpg"
-    },
-    "mask": {
-      "path": "Path_Of_RGBDSOD_Datasets/SIP/Mask",
-      "suffix": ".png"
-    }
-  },
-  "SSD": {
-    "image": {
-      "path": "Path_Of_RGBDSOD_Datasets/SSD/Image",
-      "suffix": ".jpg"
-    },
-    "mask": {
-      "path": "Path_Of_RGBDSOD_Datasets/SSD/Mask",
-      "suffix": ".png"
-    }
-  },
-  "STEREO797": {
-    "image": {
-      "path": "Path_Of_RGBDSOD_Datasets/STEREO797/Image",
-      "suffix": ".jpg"
-    },
-    "mask": {
-      "path": "Path_Of_RGBDSOD_Datasets/STEREO797/Mask",
-      "suffix": ".png"
-    }
-  },
-  "STEREO1000": {
-    "image": {
-      "path": "Path_Of_RGBDSOD_Datasets/STEREO1000/Image",
-      "suffix": ".jpg"
-    },
-    "mask": {
-      "path": "Path_Of_RGBDSOD_Datasets/STEREO1000/Mask",
-      "suffix": ".png"
-    }
-  },
-  "DUTRGBD": {
-    "image": {
-      "path": "Path_Of_RGBDSOD_Datasets/DUT-RGBD/Test/Image",
-      "suffix": ".jpg"
-    },
-    "mask": {
-      "path": "Path_Of_RGBDSOD_Datasets/DUT-RGBD/Test/Mask",
+      "path": "/content/drive/MyDrive/Bahan/ResNet50/Dataset/TestDataset/CAMO/GT",
       "suffix": ".png"
     }
   }
-}
