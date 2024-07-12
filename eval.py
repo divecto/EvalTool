@@ -39,27 +39,19 @@ def get_args():
 
     EXAMPLES:
 
-    python eval.py \
-        --dataset-json configs/datasets/rgbd_sod.json \
-        --method-json \
-            configs/methods/json/rgbd_other_methods.json \
-            configs/methods/json/rgbd_our_method.json \
-        --metric-names sm wfm mae fmeasure em \
-        --num-bits 4 \
-        --num-workers 4 \
-        --metric-npy output/rgbd_metrics.npy \
-        --curves-npy output/rgbd_curves.npy \
-        --record-txt output/rgbd_results.txt
-        --to-overwrite \
-        --record-xlsx output/test-metric.xlsx \
-        --include-dataset \
-            dataset-name1-from-dataset-json \
-            dataset-name2-from-dataset-json \
-            dataset-name3-from-dataset-json
-        --include-methods \
-            method-name1-from-method-json \
-            method-name2-from-method-json \
-            method-name3-from-method-json
+    !python eval.py \
+    --dataset-json /content/EvalTool/examples/config_dataset_json_example.json \
+    --method-json /content/EvalTool/examples/config_method_json_example.json \
+    --metric-npy /content/drive/MyDrive/Bahan/Hasil/metrics.npy \
+    --curves-npy /content/drive/MyDrive/Bahan/Hasil/curves.npy \
+    --record-txt /content/drive/MyDrive/Bahan/Hasil/results.txt \
+    --to-overwrite \
+    --record-xlsx /content/drive/MyDrive/Bahan/Hasil/metrics.xlsx \
+    --include-datasets COD10K CAMO CHAMELEON \
+    --include-methods Resnet-101 ResNet-50 \
+    --num-workers 4 \
+    --num-bits 4 \
+    --metric-names sm wfm mae fmeasure em
     """
         ),
         formatter_class=argparse.RawTextHelpFormatter,
